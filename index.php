@@ -24,7 +24,7 @@ function is_mobile(){
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>E兼职-官方网站</title>
+    <title>官方网站</title>
     <meta name="author" content="ZhouShuo" />
     <meta name="description" content="fullPage callback function." />
     <meta name="keywords"  content="fullpage,jquery,demo,callbac,function,event" />
