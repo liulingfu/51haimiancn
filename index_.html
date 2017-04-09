@@ -1,8 +1,8 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>官方网站</title>
+    <title>海绵学堂</title>
     <meta name="author" content="ZhouShuo" />
     <meta name="description" content="fullPage callback function." />
     <meta name="keywords"  content="fullpage,jquery,demo,callbac,function,event" />
@@ -15,23 +15,30 @@
     <script src="./js/jquery.fullpage.360.min.js"></script>
   </head>
   <body>
-    <div class="scrollpage-head">
-      <div class="wrap header flex flex-space-between align-center">
-        <a class="logo">海绵学堂</a>
-        <div class="nav flex flex-start align-center">
-          <a>首页</a>
-          <span></span>
-          <a>课程</a>
-          <span></span>
-          <a>讲师</a>
-          <span></span>
-          <a>常见问题</a>
-        </div>
-      </div>
-    </div>
+
     <div id="fullpage">
       <!--第一页-->
       <div class="section" id="section0">
+        <div class="scrollpage-head">
+          <div class="wrap header flex flex-row flex-between align-center">
+            <div class="flex flex-row flex-start align-center">
+              <a class="logo" href="./index_.html">海绵学堂</a>
+              <div class="logo-mobile">
+                <p>24小时咨询电话</p>
+                <p>17319017371</p>
+              </div>
+            </div>
+            <div class="nav flex flex-row flex-start align-center">
+              <a href="./index_.html" style="border-bottom:1px solid red;padding-bottom:1px;">首页</a>
+              <span></span>
+              <a href="./course.html">课程</a>
+              <span></span>
+              <a href="./team.html">讲师</a>
+              <span></span>
+              <a href="./question.html">常见问题</a>
+            </div>
+          </div>
+        </div>
         <div class="wrap">
           <div class="section0-title">
             <h2>海绵学堂</h2>
@@ -44,10 +51,6 @@
           <div class="section0-small-title">
             <h3>实战为主、系统学习、保障就业</h3>
           </div>
-          <div class="button-area flex flex-space-between">
-            <a class="left-button flex flex-space-around align-center"><span>我要咨询</span></a>
-            <a class="right-button flex flex-space-around align-center"><span>我要报名</span></a>
-          </div>
         </div>
       </div>
       <!--第二页-->
@@ -56,59 +59,60 @@
           <div class="section1-title">
             <h2>海绵学堂课程设置</h2>
           </div>
-          <div class="section1-content flex flex-space-between">
-            <div class="left-content">
-              <h3>产品经理全日班</h3>
-              <h4>6周课程</h4>
-              <div class="section1-p1">
-                <p>时间集中、快速学习、快速上岗</p>
-              </div>
-              <div class="section1-border"></div>
-              <div class="section1-p2">
-                <p>行业内实战性最强、最系统的产品经理课程</p>
-                <p>京东、百度、58同城产品总监亲自授课</p>
-                <p>最具性价比的产品培训课程</p>
-              </div>
-              <div class="section1-button flex flex-space-between">
-                <a class="left-button flex flex-space-around align-center"><span>我要咨询</span></a>
-                <a class="right-button flex flex-space-around align-center"><span>我要报名</span></a>
+          <div class="section1-content flex flex-row flex-between">
+            <div class="flex1 flex flex-row flex-center">
+              <div class="left-content">
+                <h3>产品经理全日班</h3>
+                <h4>6周课程</h4>
+                <div class="section1-p1">
+                  <p>时间集中、快速学习、快速上岗</p>
+                </div>
+                <div class="section1-border"></div>
+                <div class="section1-p2">
+                  <p>行业内实战性最强、最系统的产品经理课程</p>
+                  <p>京东、百度、58同城产品总监亲自授课</p>
+                  <p>最具性价比的产品培训课程</p>
+                </div>
+                <div class="section1-button flex flex-center">
+                  <a href="./course.html" class="left-button flex flex-center align-center"><span>查看详情</span></a>
+                </div>
               </div>
             </div>
-            <div class="right-content">
-              <h3>产品经理全日班</h3>
-              <h4>6周课程</h4>
-              <div class="section1-p1">
-                <p>时间集中、快速学习、快速上岗</p>
-              </div>
-              <div class="section1-border"></div>
-              <div class="section1-p2">
-                <p>行业内实战性最强、最系统的产品经理课程</p>
-                <p>京东、百度、58同城产品总监亲自授课</p>
-                <p>最具性价比的产品培训课程</p>
-              </div>
-              <div class="section1-button flex flex-space-between">
-                <a class="left-button flex flex-space-around align-center"><span>我要咨询</span></a>
-                <a class="right-button flex flex-space-around align-center"><span>我要报名</span></a>
+            <div class="flex1 flex flex-row flex-center">
+              <div class="left-content">
+                <h3>产品经理周末班</h3>
+                <h4>16周课程</h4>
+                <div class="section1-p1">
+                  <p>周末充电，工作学习两不误</p>
+                </div>
+                <div class="section1-border"></div>
+                <div class="section1-p2">
+                  <p>行业内实战性最强、最系统的产品经理课程</p>
+                  <p>京东、百度、58同城产品总监亲自授课</p>
+                  <p>最具性价比的产品培训课程</p>
+                </div>
+                <div class="section1-button flex flex-center">
+                  <a href="./course.html" class="left-button flex flex-center align-center"><span>查看详情</span></a>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        </div>
       </div>
       <!--第三页-->
-      <div class="section" id="section2">
+      <div class="section" id="section2"  style="background:#FFFFFF">
         <div class="wrap">
-          <div class="section2-part1 flex flex-space-between">
-            <div class="section2-left section2-title">
+          <div class="section2-part1 flex flex-row flex-between">
+            <div class="section2-left section4-title">
               <h2>写在前面的话......</h2>
               <div class="section2-border"></div>
-              <p>也许您现在正在犹豫、焦灼，迫切的希望快速入行但又无从入手；也许您考虑过从进行产品培训开始，但市面上的产品经理培训课程动辄过万，高则将近2万，让您望而止步！</p>
+              <p>也许您现在正在犹豫、焦灼，迫切的希望快速入行但又无从入手；<br/>也许您考虑过从进行产品培训开始，但市面上的产品经理培训课程<br/>动辄过万，高则将近2万，让您望而止步！</p>
               <p>那么，海绵学堂来了，海绵学堂自创立之初就立志做两件事：</p>
               <p>其一，做最具性价比的产品培训机构；</p>
               <p>其二，做行业内最系统、实战型最强、最贴近产品经理真实工作情况的培训课程。</p>
             </div>
             <div class="section2-right">
-              <img src="images/section3.png"/>
+              <img src="./images/section3.png" style="width:80%;float:right;"/>
             </div>
           </div>
           <div class="section2-part2">
@@ -119,22 +123,107 @@
       </div>
       <!--第四页-->
       <div class="section" id="section3">
-        <img src="images/section4.png"/></div>
+        <img src="images/section4.jpg"/>
+      </div>
       <!--第五页-->
       <div class="section" id="section4">
+        <div class="wrap flex flex-row flex-between align-center">
+          <div class="flex1 flex flex-row flex-center">
+            <div class="section4-part1">
+              <div class="section4-left section4-title">
+                <h2>这里汇聚着<br/>数位互联网大咖和老兵</h2>
+                <div class="section2-border"></div>
+              </div>
+              <div class="section4-left section4-tip">
+                <p>均出自于百度、阿里、58、京东等一线互联网公司</p>
+                <p>平均互联网从业经验超过8年，雄厚的师资力量是我<br/>们能够提供优质课程的保证。</p>
+              </div>
+            </div>
+          </div>
+          <div class="flex1 flex flex-row flex-center">
+            <div class="section4-part2">
+              <img src="./images/team.jpg" />
+            </div>
+          </div>
+        </div>
       </div>
       <!--第六页-->
       <div class="section" id="section5">
+        <div class="wrap">
+          <div class="section5-title">
+            <h2>在这里，实现产品梦想</h2>
+          </div>
+          <div class="section5-img">
+                    <div class="flex flex-row flex-wrap flex-between">
+	    <img src="./images/dream4.png" width="300px" height="500px"/>
+            <img src="./images/dream5.png" width="300px" height="500px"/>
+            <img src="./images/dream6.png" width="300px" height="500px"/>
+            <img src="./images/dream1.png" width="300px" height="500px"/>
+            <img src="./images/dream2.png" width="300px" height="500px"/>
+            <img src="./images/dream3.png" width="300px" height="500px"/>
+        </div>
+          </div>
+        </div>
+      </div>
+      <div class="scrollpage-footer">
+        <h3>联系我们</h3>
+        <div class="footer-item-list flex flex-row flex-between align-center">
+          <div class="footer-item flex flex-row flex-start align-center">
+            <span class="wechat">
+              <img src="./images/wechat.png" />
+            </span>
+            <p>1731901371</p>
+          </div>
+          <div class="footer-item flex flex-row flex-start align-center">
+            <span class="qq">
+              <img src="./images/qq.png" />
+            </span>
+            <p>2937611060</p>
+          </div>
+          <div class="footer-item flex flex-row flex-start align-center">
+            <span class="mobile">
+              <img src="./images/mobile.jpg" />
+            </span>
+            <p>1731901371</p>
+          </div>
+        </div>
+        <div class="enterprise">
+          <p>北京众行天下科技有限公司  版权所有   京ICP1023223-8</p>
+        </div>
       </div>
     </div>
+    <!--右侧浮层-->
+    <div class="float-ico-box">
+      <a href="javascript:void(0)" onclick="openwin()" class="float-ico wy-ico dp_block">
+        <i class="dp_block jt"></i>
+        <span class="alt_nr"><img src="images/right_fuceng/tx1.png" alt="" class="img"></span>
+      </a>
+      <!--<a href="https://hztk5.kuaishang.cn/bs/im.htm?cas=68912___679326&fi=78477&sText=PC" target="_blank" class="float-ico qq-ico  dp_block">-->
+        <!--<i class="dp_block jt"></i>-->
+        <!--<span class="alt_nr"><img src="images/right_fuceng/tx2.png" alt="" class="img"></span>-->
+      <!--</a>-->
+      <a href="#" class="float-ico zb-ico  dp_block">
+        <i class="dp_block jt"></i>
+        <span class="alt_nr"><img src="images/right_fuceng/tx3.jpg" alt="" class="img"></span>
+      </a>
+      <!--<a href="#" class="float-ico top-ico go-top  dp_block">-->
+        <!--<i class="dp_block jt"></i>-->
+        <!--<span class="alt_nr"><img src="images/right_fuceng/tx4.png" alt="" class="img"></span>-->
+      <!--</a>-->
+    </div>
+    <!--右侧浮层end-->
     <script>
       $(document).ready(function() {
         var deviceWidth = document.documentElement.clientWidth;
         document.documentElement.style.fontSize = deviceWidth / 19.2 + 'px';
         $('#fullpage').fullpage({
-            autoScrolling: false
+          autoScrolling: false
         });
       });
+      function openwin() {
+          window.open("https://hztk5.kuaishang.cn/bs/im.htm?cas=68912___679326&fi=78477&sText=PC");
+      }
     </script>
+  <script type="text/javascript" src="https://hztk5.kuaishang.cn/bs/ks.j?cI=679326&fI=78477" charset="utf-8" defer="defer"></script>
   </body>
 </html>

@@ -1,4 +1,4 @@
-* {
+﻿* {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
@@ -15,25 +15,79 @@ ul,li,ol {
 img {
   display: block;
 }
+/* 公共样式 */
 .flex {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  flex-flow: row wrap;
+  display: -webkit-box; /* 鑰佺増鏈娉�: Safari, iOS, Android browser, older WebKit browsers. */
+  display: -moz-box; /* 鑰佺増鏈娉�: Firefox (buggy) */
+  display: -ms-flexbox; /* 娣峰悎鐗堟湰璇硶: IE 10 */
+  display: -webkit-flex; /* 鏂扮増鏈娉�: Chrome 21+ */
+  display: flex; /* 鏂扮増鏈娉�: Opera 12.1, Firefox 22+ */
 }
-.align-center {
-  align-items: center;
+
+.flex-row {
+  -webkit-box-direction: normal;
+  -webkit-box-orient: horizontal;
+  -moz-flex-direction: row;
+  -webkit-flex-direction: row;
+  flex-direction: row;
 }
+
+.flex-wrap {
+  -moz-box-lines: multiple; /*Firefox*/
+  -webkit-box-lines: multiple; /*Safari,Opera,Chrome*/
+  box-lines: multiple;
+  flex-wrap: wrap;
+}
+
+.flex-column {
+  -webkit-box-direction: normal;
+  -webkit-box-orient: vertical;
+  -moz-flex-direction: column;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+
 .flex-start {
+  -webkit-box-pack: start;
+  -moz-justify-content: flex-start;
+  -webkit-justify-content: flex-start;
   justify-content: flex-start;
 }
-.flex-space-around {
-  justify-content: space-around;
+
+.flex-end {
+  -webkit-box-pack: end;
+  -moz-justify-content: flex-end;
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end;
 }
-.flex-space-between {
+
+.flex-between {
+  -webkit-box-pack: justify;
+  -moz-justify-content: space-between;
+  -webkit-justify-content: space-between;
   justify-content: space-between;
+}
+
+.flex-center {
+  -webkit-box-pack: center;
+  -moz-justify-content: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.align-center {
+  -webkit-box-align: center;
+  -moz-align-items: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.flex1 {
+  -webkit-flex: 1;        /* Chrome */
+  -ms-flex: 1;            /* IE 10 */
+  flex: 1;                /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  -webkit-box-flex: 1;    /* OLD - iOS 6-, Safari 3.1-6 */
+  -moz-box-flex: 1;       /* OLD - Firefox 19- */
 }
 .radius {
   overflow: hidden;
@@ -99,7 +153,7 @@ img {
   color: #ffffff;
 }
 .main {
-  padding: .22rem .12rem .4rem;
+  padding: .22rem .12rem 1.28rem;
   background-color: #3f3e44;
 }
 .part1-item {
@@ -154,6 +208,7 @@ img {
   font-size: 12px;
   color: #333333;
   text-indent: 2em;
+  text-align: justify;
 }
 .part3-main {
   padding: 0 .12rem .66rem 0;
@@ -193,13 +248,16 @@ img {
   font-size: 12px;
 }
 .part4-main {
-  padding: .2rem .26rem 0;
+  padding: .2rem .26rem;
 }
 .part4-item {
   margin-top: .2rem;
   width: 1.74rem;
-  height: 2.4rem;
   background-color: #f54140;
+}
+.part4-item img {
+  width: 100%;
+  height: auto;
 }
 .part4-content p {
   line-height: .96rem;
@@ -243,6 +301,8 @@ img {
 }
 
 .footer {
+  position: fixed;
+  bottom: 0;
   width: 100%;
   background-color: #ffffff;
 }
@@ -251,6 +311,8 @@ img {
   flex: 1;
   height: .88rem;
   font-size: 16px;
+  color: #333333;
+  text-decoration: none;
   border-right: 1px solid #e5e5e5;
 }
 
@@ -269,7 +331,7 @@ img {
 
 .padding-main {
   padding-top: 1.06rem;
-  padding-bottom: .4rem;
+  padding-bottom: 1.28rem;
   min-height: 100%;
   background-color: #3f3e44;
 }
@@ -301,4 +363,40 @@ img {
   line-height: 24px;
   font-size: 12px;
   text-indent: 2em;
+}
+
+.h-team-item {
+  padding: .38rem .26rem .46rem;
+  border-bottom: 1px solid #e5e5e5;
+}
+.h-team-item img {
+  margin-right: .32rem;
+  width: 2rem;
+  height: auto;
+}
+.h-team-item h2 {
+  margin-bottom: .36rem;
+  font-size: .3rem;
+}
+.h-team-item p {
+  font-size: .24rem;
+  text-align: justify;
+}
+.h-course-item {
+  margin-top: .32rem;
+}
+.h-course-item img {
+  margin: 0 auto;
+  width: 5.76rem;
+  height: 2.4rem;
+}
+.h-course-item h2 {
+  margin: .56rem 0 .22rem;
+  font-size: .3rem;
+  text-align: center;
+}
+.h-course-item p {
+  font-size: .24rem;
+  text-align: center;
+  color: #bbbbbb;
 }
