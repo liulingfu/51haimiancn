@@ -385,6 +385,9 @@ a {
   color: #76767b;
   text-align: center;
 }
+.enterprise p a{
+  color: #76767b;
+}
 
 /*常见问题*/
 .h-question-main-title {
