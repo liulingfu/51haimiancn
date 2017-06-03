@@ -1,52 +1,13 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="360-site-verification" content="277a0a1adde1fd84fc84cc71e41ff5de" />
-  <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
-  <title>海绵学堂</title>
-  <link rel="stylesheet" href="./haimianmobile/css/base.css">
+<?PHP include_once 'mheader.php'?>
 </head>
 <body>
   <div class="banner">
-    <img src="haimianmobile/images/banner.png" />
+    <img src="/haimianmobile/images/banner.png" />
   </div>
-  <div class="nav">
-    <ul class="nav-list flex flex-row flex-between">
-      <li>
-        <a href="./haimianmobile/index.html">
-          <img src="haimianmobile/images/icon_index.png">
-          <span>首页</span>
-        </a>
-        <div class="nav-item-border"></div>
-      </li>
-      <li>
-        <a href="./haimianmobile/course.html">
-          <img src="haimianmobile/images/icon_course.png">
-          <span>课程</span>
-        </a>
-        <div class="nav-item-border"></div>
-      </li>
-      <li>
-        <a href="./haimianmobile/question.html">
-          <img src="haimianmobile/images/icon_question.png">
-          <span>关于我们</span>
-        </a>
-        <div class="nav-item-border"></div>
-      </li>
-      <li>
-        <a href="./haimianmobile/team.html">
-          <img src="haimianmobile/images/icon_team.png">
-          <span>讲师团队</span>
-        </a>
-      </li>
-    </ul>
-    <div class="course-main-title flex flex-row flex-between align-center">
-      <span class="point"></span>
-      <h2>课程设置</h2>
-      <span class="point"></span>
-    </div>
-  </div>
+<?PHP include_once 'nav.php'?>
   <div class="main">
     <div class="part1 flex flex-row flex-between">
       <div class="part1-item radius">
@@ -195,20 +156,6 @@
       </div>
     </div>
   </div>
-  <div class="footer flex flex-row flex-start">
-    <a class="flex flex-row flex-center align-center" href="/">首页</a>
-    <a class="flex flex-row flex-center align-center" href="tel:17319017371">电话咨询</a>
-    <a class="flex flex-row flex-center align-center" href="https://hztk5.kuaishang.cn/bs/im.htm?cas=68912___679326&fi=78477&sText=yd">在线咨询</a>
-  </div>
-  <script>
-      window.onload = function () {
-          var deviceWidth = document.documentElement.clientWidth;
-          if(deviceWidth > 640){
-              deviceWidth = 640;
-          }
-          document.documentElement.style.fontSize = deviceWidth / 6.4 + 'px';
-      }
-  </script>
+  <?PHP include_once 'mfooter.php'?>
 </body>
 </html>
-<script type="text/javascript" src="https://hztk5.kuaishang.cn/bs/ks.j?cI=679326&fI=78477&ism=1" charset="utf-8"></script>

@@ -487,3 +487,30 @@ a {
 .qq-ico-1{background-image: url(../images/right_fuceng/ico2-2.png);}
 .zb-ico-1{background-image: url(../images/right_fuceng/ico3-3.png);}
 .top-ico-1{background-image: url(../images/right_fuceng/ico4-4.png);}
+ul{
+  list-style: none;
+ }
+
+.drop-down-content{
+  border-color: red;
+  position: absolute;
+  padding-top: 0em;
+  margin-top: 40px;
+  margin-left: -120px;
+  width: 180px;
+  display: none;
+}
+.drop-down-content a{
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  color: white;
+  background-color: #2f3e45;
+}
+.drop-down-content li {
+  padding-left: 0.2em;
+}
+.drop-down-content li:hover a{
+  background-color:red;
+}

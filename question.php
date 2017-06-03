@@ -1,36 +1,19 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="360-site-verification" content="277a0a1adde1fd84fc84cc71e41ff5de" />
-  <title>海绵学堂-关于我们</title>
-  <meta name="author" content="ZhouShuo" />
-  <meta name="description" content="fullPage callback function." />
-  <meta name="keywords"  content="fullpage,jquery,demo,callbac,function,event" />
-  <meta name="Resource-type" content="Document" />
-  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
-  <link rel="stylesheet" href="./css/base.css">
-  <script src="./js/jquery-1.8.3.min.js"></script>
+    <?PHP include_once 'header.php'?>
 </head>
 <body style="background-color: #f6f6f6;">
 <div class="scrollpage-head">
   <div class="wrap header flex flex-row flex-between align-center">
     <div class="flex flex-row flex-start align-center">
-      <a class="logo" href="./index_.html">海绵学堂</a>
+      <a class="logo" href="./index_.php">海绵学堂</a>
       <div class="logo-mobile">
         <p>24小时咨询电话</p>
         <p>17319017371</p>
       </div>
     </div>
-    <div class="nav flex flex-row flex-start align-center">
-      <a href="./index_.html" target="_blank">首页</a>
-      <span></span>
-      <a href="./course.html" target="_blank">课程</a>
-      <span></span>
-      <a href="./team.html" target="_blank">讲师</a>
-      <span></span>
-      <a href="./question.html" style="border-bottom:1px solid red;padding-bottom:1px;">关于我们</a>
-    </div>
+      <?PHP include_once 'nav.php'?>
   </div>
 </div>
   <div class="wrap" style="padding: 1.28rem 0">
@@ -122,68 +105,6 @@
     </div>
   </div>
 </div>
-
-  <div class="scrollpage-footer" style="position: static;">
-    <h3>联系我们</h3>
-    <div class="footer-item-list flex flex-row flex-between align-center">
-      <div class="footer-item flex flex-row flex-start align-center">
-            <span class="wechat">
-              <img src="./images/wechat.png" />
-            </span>
-        <p>17319017371</p>
-      </div>
-      <div class="footer-item flex flex-row flex-start align-center">
-            <span class="qq">
-              <img src="./images/qq.png" />
-            </span>
-        <p>2937611060</p>
-      </div>
-      <div class="footer-item flex flex-row flex-start align-center">
-            <span class="mobile">
-              <img src="./images/mobile.jpg" />
-            </span>
-        <p>17319017371</p>
-      </div>
-      <div class="footer-item flex flex-row flex-start align-center">
-        <a href=" "><img border="0" src="http://img.webscan.360.cn/status/pai/hash/73eba215e890a2e44948d02bd7a37a6a"/></a>
-      </div>
-    </div>
-    <div class="enterprise">
-      <p>北京众行天下科技有限公司  版权所有   京ICP备17000795号 <a href="http://hao.360.cn/" target="_blank" >360导航</a> <a href="http://se.360.cn/" target="_blank" >360安全浏览器</a></p>
-    </div>
-  </div>
-  <script>
-    $(document).ready(function() {
-      var deviceWidth = document.documentElement.clientWidth;
-      document.documentElement.style.fontSize = deviceWidth / 19.2 + 'px';
-    });
-  </script>
-
-<!--右侧浮层-->
-<div class="float-ico-box">
-  <a href="javascript:void(0)" onclick="openwin()" class="float-ico wy-ico dp_block">
-    <i class="dp_block jt"></i>
-    <span class="alt_nr"><img src="images/right_fuceng/tx1.png" alt="" class="img"></span>
-  </a>
-  <!--<a href="https://hztk5.kuaishang.cn/bs/im.htm?cas=68912___679326&fi=78477&sText=PC" target="_blank" class="float-ico qq-ico  dp_block">-->
-  <!--<i class="dp_block jt"></i>-->
-  <!--<span class="alt_nr"><img src="images/right_fuceng/tx2.png" alt="" class="img"></span>-->
-  <!--</a>-->
-  <a href="#" class="float-ico zb-ico  dp_block">
-    <i class="dp_block jt"></i>
-    <span class="alt_nr"><img src="images/right_fuceng/tx3.jpg" alt="" class="img"></span>
-  </a>
-  <!--<a href="#" class="float-ico top-ico go-top  dp_block">-->
-  <!--<i class="dp_block jt"></i>-->
-  <!--<span class="alt_nr"><img src="images/right_fuceng/tx4.png" alt="" class="img"></span>-->
-  <!--</a>-->
-</div>
-<!--右侧浮层end-->
-<script>
-    function openwin() {
-        window.open("https://hztk5.kuaishang.cn/bs/im.htm?cas=68912___679326&fi=78477&sText=PC");
-    }
-</script>
-<script type="text/javascript" src="https://hztk5.kuaishang.cn/bs/ks.j?cI=679326&fI=78477" charset="utf-8" defer="defer"></script>
+<?PHP include_once 'footer.php'?>
 </body>
 </html>

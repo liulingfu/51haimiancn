@@ -1,11 +1,7 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="360-site-verification" content="277a0a1adde1fd84fc84cc71e41ff5de" />
-  <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
-  <title>关于我们</title>
-  <link rel="stylesheet" href="css/base.css">
+    <?PHP include_once 'mheader.php'?>
 </head>
 <body>
   <div class="header flex flex-row flex-center align-center">
@@ -43,19 +39,6 @@
       </div>
     </div>
   </div>
-  <div class="footer flex flex-row flex-start">
-    <a class="flex flex-row flex-center align-center" href="/">首页</a>
-    <a class="flex flex-row flex-center align-center" href="tel:17319017371">电话咨询</a>
-    <a class="flex flex-row flex-center align-center">在线咨询</a>
-  </div>
-<script>
-    window.onload = function () {
-        var deviceWidth = document.documentElement.clientWidth;
-        if(deviceWidth > 640){
-            deviceWidth = 640;
-        }
-        document.documentElement.style.fontSize = deviceWidth / 6.4 + 'px';
-    }
-</script>
+ <?PHP include_once 'mfooter.php'?>
 </body>
 </html>
