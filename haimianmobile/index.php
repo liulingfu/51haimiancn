@@ -8,28 +8,28 @@
 <div class="nav">
     <ul class="nav-list flex flex-row flex-between">
         <li>
-            <a href="index.php">
+            <a href="/haimianmobile/index.php">
                 <img src="/haimianmobile/images/icon_index.png">
                 <span>首页</span>
             </a>
             <div class="nav-item-border"></div>
         </li>
         <li>
-            <a href="course.php">
+            <a href="/haimianmobile/course.php">
                 <img src="/haimianmobile/images/icon_course.png">
                 <span>课程</span>
             </a>
             <div class="nav-item-border"></div>
         </li>
         <li>
-            <a href="question.php">
+            <a href="/haimianmobile/question.php">
                 <img src="/haimianmobile/images/icon_question.png">
                 <span>关于我们</span>
             </a>
             <div class="nav-item-border"></div>
         </li>
         <li>
-            <a href="team.php">
+            <a href="/haimianmobile/team.php">
                 <img src="/haimianmobile/images/icon_team.png">
                 <span>讲师团队</span>
             </a>
