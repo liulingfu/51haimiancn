@@ -180,7 +180,7 @@
                 <p>weChat:17319017371</p>
             </div>
             <div class="qq flex flex-row flex-center">
-                <p>QQ:2937611060</p>
+                <p>QQ:1499171736</p>
             </div>
         </div>
         <div class="company">
