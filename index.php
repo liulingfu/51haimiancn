@@ -4,6 +4,6 @@ $useragent = strtolower($useragent);
 if(strpos($useragent,"mobile")){
 include_once"haimianmobile/index.php";
 }else {
-    include_once "index_.php";
+include_once "index_.php";
 }
 ?>
