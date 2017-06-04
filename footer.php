@@ -31,6 +31,9 @@
     $(document).ready(function() {
         var deviceWidth = document.documentElement.clientWidth;
         document.documentElement.style.fontSize = deviceWidth / 19.2 + 'px';
+        $('#fullpage').fullpage({
+            autoScrolling: false
+        });
     });
     function stopPropagation(e) {
         if (e.stopPropagation)
