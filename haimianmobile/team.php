@@ -13,10 +13,17 @@
             <h2 style="text-align: center">这里汇聚着数位互联网大咖和老兵</h2>
         </div>
         <div class="h-team-item flex flex-row flex-start align-center">
-            <img src="images/杨乔@2x.png" />
+            <img src="/images/陈磊志.png" />
             <div class="flex flex-column flex-between">
-                <h2>杨乔</h2>
-                <p>曾任职京东、百度、58同城等，担任高级产品经理和产品总监；擅长产品前端设计、后台设计、产品架构、项目管理、产品交互、产品运营、产品策略、商业产品等；拥有电商、O2O、在线教育、直播、旅游、招聘等行业的丰富经验。</p>
+                <h2>陈磊志</h2>
+                <p>曾任职于国美在线、去哪儿网、航空互联（港股08176）、竞彩258、九歌在线，担任高级产品经理、产品总监及联合创始人；8年产品从业经验，4年产品团队管理经验，擅长平台级产品规划、前后端架构、产品线矩阵设计，拥有PAD端、APP端、PC端后台系统、大数据系统等产品的丰富经验；同时担任上市公司航空互联CPO，与VC创投圈有良好的渠道关系。</p>
+            </div>
+        </div>
+        <div class="h-team-item flex flex-row flex-start align-center">
+            <img src="/images/李浩然.jpg" />
+            <div class="flex flex-column flex-between">
+                <h2>李浩然</h2>
+                <p>曾任职于闪银奇异、e兼职、嗨起等互联网公司，担任运营负责人和运营总监职位；精通流量的获取和渠道运营，对于用户运营、活动运营、新媒体运营、渠道运营有非常丰富的经验；自己亲手操刀的e兼职项目经历了从0用户到500万用户的运营全流程。</p>
             </div>
         </div>
         <div class="h-team-item flex flex-row flex-start align-center">
