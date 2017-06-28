@@ -30,6 +30,14 @@
     </div>
   </div>
     <div class="h-team-item flex flex-row flex-start align-center">
+          <img src="images/person-baidu1.jpg" width="301px" height="280px;"/>
+          <div class="flex flex-column flex-between" style="height: 280px">
+              <h2>王思静</h2>
+              <h3>一      高级产品经理</h3>
+              <p>目前任职于百度，负责过hao123、百度外卖等业务线，担任高级产品经理设计师。擅长移动端产品设计、后台产品设计、策略产品等。职业初期供职于创业公司，对创业公司的产品从0到1的全部流程也有非常丰富的经验。</p>
+          </div>
+      </div>
+    <div class="h-team-item flex flex-row flex-start align-center">
         <img src="images/李浩然.jpg" />
         <div class="flex flex-column flex-between" style="height: 280px">
             <h2>李浩然</h2>
