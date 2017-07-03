@@ -45,14 +45,6 @@
                 <p>曾任职于闪银奇异、e兼职、嗨起等互联网公司，担任运营负责人和运营总监职位；精通流量的获取和渠道运营，对于用户运营、活动运营、新媒体运营、渠道运营有非常丰富的经验；自己亲手操刀的e兼职项目经历了从0用户到500万用户的运营全流程。</p>
         </div>
     </div>
-    <div class="h-team-item flex flex-row flex-start align-center">
-        <img src="images/person-baidu1.jpg" width="301px" height="280px;"/>
-        <div class="flex flex-column flex-between" style="height: 280px">
-            <h2>王思静</h2>
-            <h3>一      高级产品经理</h3>
-            <p>目前任职于百度，负责过hao123、百度外卖等业务线，担任高级产品经理设计师。擅长移动端产品设计、后台产品设计、策略产品等。职业初期供职于创业公司，对创业公司的产品从0到1的全部流程也有非常丰富的经验。</p>
-        </div>
-    </div>
   <div class="h-team-item flex flex-row flex-start align-center">
     <img src="images/钱树彬@2x.png" />
     <div class="flex flex-column flex-between" style="height: 280px">
