@@ -28,9 +28,7 @@
                 <h3 style="font-size:33px;padding-top:0.3em;color: #fe6e6e;">左书亮</h3>
                 <p>讲师</p>
             </div>
-            <p>积分链创始人兼CTO，专注于搭建区块链应用以及区块链业务分析法实践。</p>
-            <p>&nbsp;</p>
-            <p>&nbsp;</p>
+            <p>曾供职于阿里巴巴、美团、乐视等一线互联网公司，专注于搭建区块链应用以及金融领域的创新，曾主导PDFS，资产管理平台等应用区块链技术实现的产品。</p>
         </div>
         <div style="padding:0.3em; ">
             <div style="text-align:center;">
