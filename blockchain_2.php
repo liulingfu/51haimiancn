@@ -153,7 +153,7 @@
 
     <div class="h-team-item flex flex-row flex-start align-center">
         <div class="flex flex-column flex-between" style="height: 100px">
-            <p>培训时间：3个月 周末班 包就业</p>
+            <p>培训时间：3个月 周末班</p>
             <p>课程安排：具有一定开发经验或0基础学员均可</p>
             <p>培训地点：北京市昌平区天通中苑2区42号楼309室。</p>
 
