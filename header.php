@@ -11,3 +11,12 @@
 <script src="./js/jquery-1.8.3.min.js"></script>
 <script src="./js/jquery.easing.min.js"></script>
 <script src="./js/jquery.fullpage.360.min.js"></script>
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?a056f995d98477fdc7c18c6d360daf5c";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
