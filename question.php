@@ -95,6 +95,7 @@
   </div>
   <div class="padding-main">
     <div class="h-question-content">
+        <p style="font-weight: bold;">北京校区</p>
       <p>
         地址：北京市昌平区天通苑中二区42号楼411室
       </p>
@@ -103,6 +104,17 @@
       </p>
 
     </div>
+      <div class="padding-main">
+          <div class="h-question-content">
+              <p style="font-weight: bold;">上海校区</p>
+              <p>
+                  地址：上海市松江区昂立大厦1523室（近期迁移到长宁区）
+              </p>
+              <p>
+                  乘车路线：地铁9号线到松江大学城站，下车坐7路公交车到万达广场对面就是
+              </p>
+
+          </div>
   </div>
 </div>
 <?PHP include_once 'footer.php'?>
