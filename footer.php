@@ -20,7 +20,9 @@
             <p>17319017371</p>
         </div>
         <div class="footer-item flex flex-row flex-start align-center">
-            <a href=" "><img border="0" src="http://img.webscan.360.cn/status/pai/hash/73eba215e890a2e44948d02bd7a37a6a"/></a>
+            <a href=" ">
+<!--                <img border="0" src="http://img.webscan.360.cn/status/pai/hash/73eba215e890a2e44948d02bd7a37a6a"/>-->
+            </a>
         </div>
     </div>
     <div class="enterprise">
