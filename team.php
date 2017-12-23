@@ -21,6 +21,14 @@
     <h1>讲师团队</h1>
     <p>同行业内最强大的讲师团队带你进入产品经理的世界</p>
   </div>
+    <div class="h-team-item flex flex-row flex-start align-center">
+        <img src="images/liulaoshi.png" />
+        <div class="flex flex-column flex-between" style="height: 280px">
+            <h2>刘志华</h2>
+            <h3>一      产品运营总监</h3>
+            <p>浙江大学软件工程硕士，曾就职于搜狐、房天下、敦煌网、智慧树（和晶科技300279）等公司，担任资深产品运营经理（增长），运营总监COO，联合创始人等岗位。10年零售电商、移动互联网广告、房产和K12教育行业产品和运营经验，擅长平台运营规划、拉新、用户运营、数据运营、产品规划设计、商业变现等。亲自主导过若干个0到1项目和1到10项目，所负责业务线用户数为千万级，GMV为千亿级。</p>
+        </div>
+    </div>
   <div class="h-team-item flex flex-row flex-start align-center">
     <img src="images/陈磊志.png" />
     <div class="flex flex-column flex-between" style="height: 280px">
