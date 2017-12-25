@@ -60,7 +60,7 @@
       <h3>一      产品总监</h3>
       <p>层任职于京东、凡客、聚美优品、中粮我买网，担任产品总监及产品负责人，主要负责移动端的产品架构和产品设计；连续创业者，2015年创立美发预约平台卷毛兔，A轮融资3600万，对O2O产品具有非常丰富的行业经验。</p>
     </div>
-  </div> 
+  </div>
   <div class="h-team-item flex flex-row flex-start align-center">
     <img src="images/张言@2x.png" />
     <div class="flex flex-column flex-between" style="height: 280px">
