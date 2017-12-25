@@ -21,14 +21,6 @@
     <h1>讲师团队</h1>
     <p>同行业内最强大的讲师团队带你进入产品经理的世界</p>
   </div>
-    <div class="h-team-item flex flex-row flex-start align-center">
-        <img src="images/liulaoshi.png" />
-        <div class="flex flex-column flex-between" style="height: 280px">
-            <h2>刘志华</h2>
-            <h3>一      产品运营总监</h3>
-            <p>浙江大学软件工程硕士，曾就职于搜狐、房天下、敦煌网、智慧树（和晶科技300279）等公司，担任资深产品运营经理（增长），运营总监COO，联合创始人等岗位。10年零售电商、移动互联网广告、房产和K12教育行业产品和运营经验，擅长平台运营规划、拉新、用户运营、数据运营、产品规划设计、商业变现等。亲自主导过若干个0到1项目和1到10项目，所负责业务线用户数为千万级，GMV为千亿级。</p>
-        </div>
-    </div>
   <div class="h-team-item flex flex-row flex-start align-center">
     <img src="images/陈磊志.png" />
     <div class="flex flex-column flex-between" style="height: 280px">
@@ -53,6 +45,14 @@
                 <p>曾任职于闪银奇异、e兼职、嗨起等互联网公司，担任运营负责人和运营总监职位；精通流量的获取和渠道运营，对于用户运营、活动运营、新媒体运营、渠道运营有非常丰富的经验；自己亲手操刀的e兼职项目经历了从0用户到500万用户的运营全流程。</p>
         </div>
     </div>
+    <div class="h-team-item flex flex-row flex-start align-center">
+        <img src="images/liulaoshi.png" />
+        <div class="flex flex-column flex-between" style="height: 280px">
+            <h2>刘志华</h2>
+            <h3>一      产品运营总监</h3>
+            <p>浙江大学软件工程硕士，曾就职于搜狐、房天下、敦煌网、智慧树（和晶科技300279）等公司，担任资深产品运营经理（增长），运营总监COO，联合创始人等岗位。10年零售电商、移动互联网广告、房产和K12教育行业产品和运营经验，擅长平台运营规划、拉新、用户运营、数据运营、产品规划设计、商业变现等。亲自主导过若干个0到1项目和1到10项目，所负责业务线用户数为千万级，GMV为千亿级。</p>
+        </div>
+    </div>
   <div class="h-team-item flex flex-row flex-start align-center">
     <img src="images/钱树彬@2x.png" />
     <div class="flex flex-column flex-between" style="height: 280px">
@@ -60,15 +60,7 @@
       <h3>一      产品总监</h3>
       <p>层任职于京东、凡客、聚美优品、中粮我买网，担任产品总监及产品负责人，主要负责移动端的产品架构和产品设计；连续创业者，2015年创立美发预约平台卷毛兔，A轮融资3600万，对O2O产品具有非常丰富的行业经验。</p>
     </div>
-  </div>
-  <div class="h-team-item flex flex-row flex-start align-center">
-    <img src="images/粟阳@2x.png" />
-    <div class="flex flex-column flex-between" style="height: 280px">
-      <h2>栗阳</h2>
-      <h3>一      产品总监</h3>
-      <p>曾任职于搜狐、新浪、百合网，担任商业产品负责人，主要负责商业化产品，对互联网公司的商业模式、变现手法、盈利模式以及商业产品的核心算法有非常丰富的经验；丰富的行业经验，经历了用户数从0-3000万的产品全过程。</p>
-    </div>
-  </div>
+  </div> 
   <div class="h-team-item flex flex-row flex-start align-center">
     <img src="images/张言@2x.png" />
     <div class="flex flex-column flex-between" style="height: 280px">
