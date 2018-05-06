@@ -160,13 +160,13 @@
         <div class="part4-main">
             <div class="flex flex-row flex-wrap flex-between">
                 <div class="part4-item">
-                    <img src="./haimianmobile/images/dream1.png" height="289" width="163"/>
+                    <img src="/haimianmobile/images/dream1.png" height="289" width="163"/>
                 </div>
                 <div class="part4-item">
-                    <img src="./haimianmobile/images/dream2.png" height="289" width="163"/>
+                    <img src="/haimianmobile/images/dream2.png" height="289" width="163"/>
                 </div>
                 <div class="part4-item">
-                    <img src="./haimianmobile/images/dream3.png" height="287" width="161"/>
+                    <img src="/haimianmobile/images/dream3.png" height="287" width="161"/>
                 </div>
             </div>
         </div>
