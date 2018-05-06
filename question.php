@@ -117,6 +117,7 @@
           </div>
   </div>
 </div>
+</div>
 <?PHP include_once 'footer.php'?>
 </body>
 </html>
