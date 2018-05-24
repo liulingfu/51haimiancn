@@ -18,7 +18,7 @@
 </div>
 <div class="wrap" style="padding: 1.28rem 0">
     <div class="h-question-main-title">
-        <h1>行业内最系统、实战型最强、<br/>最贴近产品运营经理真实工作情况的课程设置</h1>
+        <h1>行业内首家区块链产品经理培训<br/>师资力量强、实战性强、课程体系更加系统</h1>
     </div>
     <div class="h-course-item flex flex-row flex-between">
         <img src="img_yunying/u6.png" height="334" width="538" />
