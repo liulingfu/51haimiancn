@@ -10,8 +10,8 @@
         <ul >
             <li><a href="#"></a></li>
             <li><a href="./course.php?nav=2">产品经理培训</a></li>
-            <li><a href="./blockchain_2.php?nav=2">区块链培训</a></li>
-            <li><a href="./chanpinyunyingpeixun.php">产品运营培训</a></li>
+            <li><a href="./blockchain_2.php?nav=2">区块链技术培训</a></li>
+            <li><a href="./qklpm.php">区块链产品经理培训</a></li>
         </ul>
     </div>
     <span class="span-hiden"></span>
